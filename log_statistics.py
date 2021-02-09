@@ -1,5 +1,4 @@
-import os
-import collections
+import os, collections
 files_path = r"c:\temp\Logs"
 files = [f for f in os.listdir(files_path) if os.path.isfile(os.path.join(files_path, f))]
 source_ip_set = set()
